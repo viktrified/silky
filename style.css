@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #666;
+}
+
+header {
+    align-items: center;
+    background-color: #D3D3D3;
+    color: #333;
+    width: 100%; 
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-container {
+    margin: 20px;
+}
+
+.header-h1 {
+    font-size: 65px;
+    padding: 20px;
+}
+
+.header-p {
+    font-size: 25px;
+    color: #36454F;
+    margin-left: 20px;
+}
+
+.title-container {
+    max-width: 600px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #666;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.logo:hover, .button-button:hover {
+    color: black;
+    transition: color 0.3s;
+} 
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #000;
+}
+
+section {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #D3D3D3;
+}
+
+.category-list {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+img {
+    width: 700px;
+    height: 600px;
+    border-radius: 4%;
+   
+}
+
+.link {
+    font-size: 19px;
+    box-shadow: 0 0.5px 1px;
+    text-decoration: none;
+    color: #333;
+}
+
+.get-started {
+    font-size: 35px;
+    text-decoration: none;
+    background-color: #848884;
+    color: #000;
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.silky { 
+    color: black;
+}
+
+strong {
+    color: #000;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+        display: flex;
+            flex-direction: column;
+}
+
+label {
+        margin: 10px 0 5px;
+            font-weight: bold;
+}
+
+.button-button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button-button

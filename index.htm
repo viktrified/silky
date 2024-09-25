@@ -6,56 +6,54 @@
     <meta name="author" content="Victory Ezeokafor" />
     <meta name="description" content="An Online Hub" />
     <title>SILKY</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
-      <div class="nav-container container">
-        <div class="logo-container">
-          <a href="index.htm" class="logo">SILKY</a>
-        </div>
-        <div class="menu-container">
-          <ul class="nav-menu">
-            <li class="nav-list">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-list">
-              <a href="#" class="nav-link">About</a>
-            </li>
-            <li><a href="#" class="nav-link">Courses</a></li>
-            <li>
-              <a href="#" class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div class="logo-container">
+        <a href="index.htm" class="logo">SILKY</a>
+      </div>
+      <div class="menu-container">
+        <ul class="nav-menu">
+          <li class="nav-list">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-list">
+            <a href="index.htm#about" class="nav-link">About</a>
+          </li>
+          <li><a href="courses.htm" class="nav-link">Courses</a></li>
+          <li>
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
     <header>
-      <div class="header-container container">
-        <div class="title-container">
-          <h1>Grow your skills to advance your career path at Silky</h1>
-          <p>
-            Silky is your online hub designed to offer a seamless, polished
-            digital experience. It serves as a platform for connecting users
-            with resources, tools, and content in an elegant and user-friendly
-            environment.
-          </p>
-          <a href="#" class="get-started btn">Get Started</a>
-        </div>
-        <div class="img-container">
-          <img
-            src="https://images.unsplash.com/photo-1485217988980-11786ced9454?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b25saW5lJTIwaHVifGVufDB8fDB8fHww"
-            alt=""
-            width="200"
-            height="200"
-          />
-        </div>
+      <div class="title-container">
+        <h1 class="header-h1">
+          Grow your skills to advance your career path at
+          <strong class="silky"> Silky </strong>
+        </h1>
+        <p class="header-p">
+          Silky is your online hub designed to offer a seamless, polished
+          digital experience. It serves as a platform for connecting users with
+          resources, tools, and content in an elegant and user-friendly
+          environment.
+        </p>
+        <a href="#" class="get-started">Get Started</a>
+      </div>
+      <div class="img-container">
+        <img
+          src="https://images.unsplash.com/photo-1485217988980-11786ced9454?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b25saW5lJTIwaHVifGVufDB8fDB8fHww"
+          alt=""
+        />
       </div>
     </header>
     <section>
       <div class="category-container container">
         <div class="category-title">
           <h2>Categories</h2>
-          <p>
+          <p class="category-list">
             Silky offers a comprehensive and immersive learning experience
             across many categories, each tailored to equip learners with the
             skills needed to thrive in the tech industry. Here's a few:
@@ -63,7 +61,6 @@
         </div>
         <div class="category-content">
           <div class="category-list">
-            <span class="category-icon"></span>
             <h5>Blockchain</h5>
             <p>
               Dive deep into the world of decentralized technologies, exploring
@@ -75,7 +72,6 @@
             </p>
           </div>
           <div class="category-list">
-            <span class="category-icon"></span>
             <h5>Frontend Development</h5>
             <p>
               Master the art of crafting responsive, interactive, and visually
@@ -88,7 +84,6 @@
             </p>
           </div>
           <div class="category-list">
-            <span class="category-icon"></span>
             <h5>Backend Development</h5>
             <p>
               Learn to build robust, scalable, and efficient server-side
@@ -100,7 +95,6 @@
             </p>
           </div>
           <div class="category-list">
-            <span class="category-icon"></span>
             <h5>UI/UX Design:</h5>
             <p>
               Delve into the world of user-centered design, focusing on creating
@@ -117,9 +111,8 @@
     </section>
     <section>
       <div>
-        <h2>Popular Courses</h2>
-        <div>
-          <img src="/images/justApple.jpg" alt="" />
+        <h2 class="category-title">Popular Courses</h2>
+        <div class="category-list">
           <h5>Responsive Social Media Website UI Design</h5>
           <p>
             Master the art of creating user interfaces for social media
@@ -129,10 +122,9 @@
             HTML, CSS, and JavaScript to create visually appealing and
             user-friendly social media interfaces.
           </p>
-          <a href="#">Learn More</a>
+          <a href="#" class="link">Learn More</a>
         </div>
-        <div>
-          <img src="/images/justApple.jpg" alt="" />
+        <div class="category-list">
           <h5>SmartHome Automation with IoT</h5>
           <p>
             Discover how the Internet of Things (IoT) is transforming homes into
@@ -142,22 +134,45 @@
             or climate control, this course covers the essential skills to bring
             automation into everyday life.
           </p>
-          <a href="#">Learn More</a>
+          <a href="#" class="link">Learn More</a>
         </div>
-        <div>
-          <img src="/images/justApple.jpg" alt="" />
+        <div class="category-list">
           <h5>Introduction to Artificial Intelligence</h5>
           <p>
             Explore how AI is becoming a part of our daily routines. This course
             dives into practical applications of artificial intelligence, from
             personal assistants like Siri and Alexa to smart recommendations in
-            streaming services. You will learn the basics of machine learning and
-            how AI-driven systems are shaping industries and changing the way we
-            live.
+            streaming services. You will learn the basics of machine learning
+            and how AI-driven systems are shaping industries and changing the
+            way we live.
           </p>
-          <a href="#">Learn More</a>
+          <a href="#" class="link">Learn More</a>
         </div>
       </div>
     </section>
+    <section>
+      <div>
+        <h2 id="about" class="category-title">About Silky</h2>
+        <p class="category-list">
+          Silky is a dynamic online hub designed to connect, inspire, and
+          empower individuals through technology and innovation. Whether you're
+          a tech enthusiast, a developer, or someone looking to explore new
+          digital landscapes, Silky offers a space to discover cutting-edge
+          tools, insights, and resources. Our platform focuses on fostering
+          creativity, collaboration, and growth in the digital world.
+        </p>
+        <p class="category-list">
+          From learning new coding languages to exploring the latest trends in
+          technology, Silky is your go-to destination for expanding your
+          knowledge and building a thriving community. At Silky, we believe that
+          technology is more than just a tool—it's a pathway to shaping the
+          future. Join us as we continue to create, innovate, and build a space
+          where ideas come to life.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Silky. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
